@@ -8,7 +8,7 @@ I build simulations, embedded systems, and software that sits close to the hardw
 
 ### **F = Gm₁m₂/r²**
 **[N-Body Gravity Simulator](https://github.com/karl-kes/N-Body-Gravity-Simulator)**  
-Gravitational n-body simulation with symplectic Verlet integration. Sub-0.0002% energy drift over 31.5M seconds. Parallelized with OpenMP for 1000+ bodies at 500M+ FLOP/s. C++ backend, VPython 3D rendering.
+Gravitational n-body simulation with symplectic Verlet integration. Sub-0.002% energy drift over 100+ years. Parallelized with OpenMP for 1000+ bodies at 500M+ FLOP/s. C++ backend, VPython 3D rendering.
 
 ### **∇ × E = −∂B/∂t**
 **[FDTD Wave Solver](https://github.com/karl-kes/FDTD-Wave-Solver)**  
