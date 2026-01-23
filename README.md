@@ -6,13 +6,13 @@ I build simulations, embedded systems, and software that sits close to the hardw
 
 ## Projects
 
+### **∇ × E = −∂B/∂t**
+**[Computational Electromagnetic Solver](https://github.com/karl-kes/FDTD-Wave-Solver)**  
+Finite-difference time-domain solver for Maxwell's equations. Yee-cell field updates with Courant-stable time-stepping. Visualizes EM wave propagation across arbitrary grid sizes. *(In progress)*
+
 ### **F = Gm₁m₂/r²**
 **[N-Body Gravity Simulator](https://github.com/karl-kes/N-Body-Gravity-Simulator)**  
 Gravitational n-body simulation with symplectic Verlet integration. Sub-0.002% energy drift over 100+ years. Parallelized with OpenMP for 1000+ bodies at 500M+ FLOP/s. C++ backend, VPython 3D rendering.
-
-### **∇ × E = −∂B/∂t**
-**[FDTD Wave Solver](https://github.com/karl-kes/FDTD-Wave-Solver)**  
-Finite-difference time-domain solver for Maxwell's equations. Yee-cell field updates with Courant-stable time-stepping. Visualizes EM wave propagation across arbitrary grid sizes. *(In progress)*
 
 ### **F = μ₀I²L / 2πd**
 **Electromagnetic Propulsion System**  
