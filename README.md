@@ -8,7 +8,7 @@ I build simulations, embedded systems, and software that sits close to the hardw
 
 ### **∇ × E = −∂B/∂t**
 **[Finite-Difference Maxwell Solver](https://github.com/karl-kes/FDTD-Wave-Solver)**  
-Finite-difference time-domain solver for Maxwell's equations. Simulates the electric and magnetic fields corresponding to various sources.
+Finite-difference time-domain solver for Maxwell's equations; simulates the electric and magnetic fields corresponding to various sources. Validated with plane wave tests and analytical solutions.
 
 ### **F = Gm₁m₂/r²**
 **[N-Body Gravity Engine](https://github.com/karl-kes/N-Body-Gravity-Simulator)**  
