@@ -7,16 +7,12 @@ I build simulations, embedded systems, and software that sits close to the hardw
 ## Projects
 
 ### **∇ × E = −∂B/∂t**
-**[Computational Electromagnetic Solver](https://github.com/karl-kes/FDTD-Wave-Solver)**  
-Finite-difference time-domain solver for Maxwell's equations. Yee-cell field updates with Courant-stable time-stepping. Visualizes EM wave propagation across arbitrary grid sizes. *(In progress)*
+**[Finite-Difference Maxwell Solver](https://github.com/karl-kes/FDTD-Wave-Solver)**  
+Finite-difference time-domain solver for Maxwell's equations. Simulates the electric and magnetic fields corresponding to various sources.
 
 ### **F = Gm₁m₂/r²**
-**[N-Body Gravity Simulator](https://github.com/karl-kes/N-Body-Gravity-Simulator)**  
-Gravitational n-body simulation with symplectic Verlet integration. Sub-0.002% energy drift over 100+ years. Parallelized with OpenMP for 1000+ bodies at 500M+ FLOP/s. C++ backend, VPython 3D rendering.
-
-### **F = μ₀I²L / 2πd**
-**Electromagnetic Propulsion System**  
-3-stage coilgun with 200+ turn coils and 200J capacitor bank (200V/9,400µF). Handles 180A+ inrush with Arduino-controlled gate timing. Targeting 100+ km/h projectile velocity. Custom PCB in progress.
+**[N-Body Gravity Engine](https://github.com/karl-kes/N-Body-Gravity-Simulator)**  
+N-Body physics engine simulationg gravity with symplectic Yoshida integration. Validated solar system dynamics with NASA JPL Horizons data across 249 years.
 
 ### **L ∝ R² × T⁴**
 **[ExoDiscover](https://github.com/wentingcoding960206/ExoDiscover)**  
@@ -28,17 +24,17 @@ Exoplanet exploration tool for NASA Space Apps. Integrated XGBoost/CNN models (7
 
 ## Skills
 
-**Languages:** C, C++, Python, JavaScript, Java, HTML/CSS  
-**Areas:** Embedded Systems, Software Engineering, Numerical Methods/Computational Physics, Full-Stack Development  
-**Tools:** Git, Linux, OpenMP, STM32, Altium, Arduino, React, Vite
+**Languages:** C, C++, Python
+**Areas:** High-Performance Computing, Optimizations, Software Engineering, Numerical Methods/Computational Physics
+**Tools:** Git, Bash, Linux, OpenMP, NumPy, Plotly, MatPlotLib
 
 ## Experience
 
-**Embedded Software Developer** — [Waterloo Aerial Robotics Group]((https://www.uwarg.com/))  
-SPI/I2C drivers, PWM control, real-time sensor integration.
+**Software Engineering Intern** — Shopify  
+Incoming for the Summer 2026 term.
 
 **Co-Author** — UWaterloo ECE 105 Course Text  
-Curriculum development and LaTeX infrastructure for 400+ students.
+Curriculum development and LaTeX infrastructure for 400+ annual students.
 
 **Founder** — KesTech Systems  
 $40K+ revenue, 60+ custom-built systems.
