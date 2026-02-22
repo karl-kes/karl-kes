@@ -18,10 +18,6 @@ N-Body physics engine simulationg gravity with symplectic Yoshida integration. V
 **[ExoDiscover -- NASA Hackathon](https://github.com/wentingcoding960206/ExoDiscover)**  
 Exoplanet signal detection tool. Integrated XGBoost/CNN models (70% detection accuracy) with React/Three.js frontend rendering 20,000+ exoplanets. Top 4 finish, 150 participants.
 
-### **d/dt(∂L/∂q̇) − ∂L/∂q = 0**
-**[Classical Mechanics Problem Sets](https://github.com/karl-kes/Classical_Mechanics_PSets)**  
-100+ problems covering kinematics through wave mechanics. Co-authored with UWaterloo ECE for the official ECE 105 course text.
-
 ## Skills
 
 **Languages:** C, C++, Python
