@@ -21,7 +21,9 @@ Exoplanet signal detection tool. Integrated XGBoost/CNN models (70% detection ac
 ## Skills
 
 **Languages:** C, C++, Python
+
 **Areas:** High-Performance Computing, Optimizations, Software Engineering, Numerical Methods/Computational Physics
+
 **Tools:** Git, Bash, Linux, OpenMP, NumPy, Plotly, MatPlotLib
 
 ## Experience
