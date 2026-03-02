@@ -20,16 +20,19 @@ Exoplanet signal detection tool. Integrated XGBoost/CNN models (70% detection ac
 
 ## Skills
 
-**Languages:** C, C++, Python
+**Languages:** C, C++, Python.
 
-**Areas:** High-Performance Computing, Optimizations, Software Engineering, Numerical Methods/Computational Physics
+**Areas:** High-Performance Computing, Optimizations, Software Engineering, Numerical Methods/Computational Physics.
 
-**Tools:** Git, Bash, Linux, OpenMP, NumPy, Plotly, MatPlotLib
+**Tools:** Git, Bash, Linux, OpenMP, NumPy, Plotly, MatPlotLib.
 
 ## Experience
 
 **Software Engineering Intern** — Shopify  
 Incoming for the Summer 2026 term.
+
+**Founder & HPC Engineer** — UW HPC  
+Developing software for high-performance computing.
 
 **Co-Author** — UWaterloo ECE 105 Course Text  
 Curriculum development and LaTeX infrastructure for 400+ annual students.
