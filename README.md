@@ -7,7 +7,7 @@ I build simulations, embedded systems, and software that sits close to the hardw
 ## Projects
 
 ### **u(r) = ar / (1 + br)**
-**[Variational Monte Carlo Engine]([https://github.com/karl-kes/FDTD-Wave-Solver](https://github.com/UWHPC/Variational-Monte-Carlo))**  
+**[Variational Monte Carlo Engine](https://github.com/UWHPC/Variational-Monte-Carlo)**  
 Variational Monte Carlo engine for simulating the homogeneous electron gas. Implements a Slater-Jastrow trial wavefunction, and Metropolis sampling for electron configurations. Done with the UW HPC team.
 
 ### **∇ × E = −∂B/∂t**
