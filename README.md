@@ -2,7 +2,7 @@
 
 **Computer Engineering, University of Waterloo**
 
-I build simulations, embedded systems, and software that sits close to the hardware. My projects start with a physical system and end with working code.
+I build simulations, low-level systems, and software that sits close to the hardware. My projects start with a physical problem and end with working code.
 
 ## Projects
 
