@@ -6,13 +6,13 @@ I build simulations, low-level systems, and software that sits close to the hard
 
 ## Projects
 
-### **u(r) = ar / (1 + br)**
-**[Variational Monte Carlo Engine](https://github.com/UWHPC/Variational-Monte-Carlo)**  
-Variational Monte Carlo engine for simulating the homogeneous electron gas. Implements a Slater-Jastrow trial wavefunction, and Metropolis sampling for electron configurations. Done with the UW HPC team.
-
 ### **∇ × E = −∂B/∂t**
 **[Finite-Difference Maxwell Solver](https://github.com/karl-kes/FDTD-Wave-Solver)**  
 Finite-difference time-domain solver for Maxwell's equations; simulates the electric and magnetic fields corresponding to various sources. Validated with plane wave tests and analytical solutions.
+
+### **u(r) = ar / (1 + br)**
+**[Variational Monte Carlo Engine](https://github.com/UWHPC/Variational-Monte-Carlo)**  
+Variational Monte Carlo engine for simulating the homogeneous electron gas. Implements a Slater-Jastrow trial wavefunction, and Metropolis sampling for electron configurations. Done with the UW HPC team.
 
 ### **F = Gm₁m₂/r²**
 **[N-Body Gravity Engine](https://github.com/karl-kes/N-Body-Gravity-Simulator)**  
@@ -24,7 +24,7 @@ N-Body physics engine simulationg gravity with symplectic Yoshida integration. V
 
 **Areas:** High-Performance Computing, Optimizations, Software Engineering, Numerical Methods/Computational Physics.
 
-**Tools:** Git, Bash, Linux, OpenMP, NumPy, Plotly, MatPlotLib.
+**Tools:** Git, Bash, Linux, OpenMP, NumPy, Rerun, Plotly, MatPlotLib.
 
 ## Experience
 
