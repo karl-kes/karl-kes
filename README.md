@@ -2,43 +2,47 @@
 
 **Computer Engineering, University of Waterloo**
 
-I build simulations, low-level systems, and software that sits close to the hardware. My projects start with a physical problem and end with working code.
+I write low-level systems and HPC software: CUDA kernels, parallel solvers, and code that lives close to the hardware. My research experience centers on distributed GPU algorithms for maximally independent sets. I've recently begun work on ML compilers with the UWHPC design team.
 
 ## Projects
 
+### ∂T/∂t = α∇²T
+**[3D Heat Solver](https://github.com/karl-kes/3d-heat-solver)**  
+A C++ solver for the 3D heat equation using an explicit forward Euler finite-difference scheme, with dual-backend CPU (OpenMP/SIMD) and GPU (CUDA) execution from unified source. Achieves 60-68x GPU speedup at large grid sizes, validated against Neumann eigenfunction solutions.
+
 ### **∇ × E = −∂B/∂t**
 **[Finite-Difference Maxwell Solver](https://github.com/karl-kes/FDTD-Wave-Solver)**  
-Finite-difference time-domain solver for Maxwell's equations; simulates the electric and magnetic fields corresponding to various sources. Validated with plane wave tests and analytical solutions.
-
-### **u(r) = ar / (1 + br)**
-**[Variational Monte Carlo Engine](https://github.com/UWHPC/Variational-Monte-Carlo)**  
-Variational Monte Carlo engine for simulating the homogeneous electron gas. Implements a Slater-Jastrow trial wavefunction, and Metropolis sampling for electron configurations. Done with the UW HPC team.
+A 3D Finite-Difference Time-Domain (FDTD) Maxwell Solver with CPML boundary conditions. Capable of simulating and visualizing electromagnetic vector fields. Parallelized with OpenMP (CUDA in progress).
 
 ### **F = Gm₁m₂/r²**
 **[N-Body Gravity Engine](https://github.com/karl-kes/N-Body-Gravity-Simulator)**  
 N-Body physics engine simulationg gravity with symplectic Yoshida integration. Validated solar system dynamics with NASA JPL Horizons data across 249 years.
 
+### **u(r) = ar / (1 + br)**
+**[Variational Monte Carlo Engine](https://github.com/UWHPC/Variational-Monte-Carlo)**  
+A Variational Monte Carlo engine simulating the homogeneous electron gas, built as part of UW High Performance Computing. Uses a trial wavefunction and stochastic optimization to estimate ground-state energies.
+
 ## Skills
 
-**Languages:** C, C++, Python.
+**Languages:** CUDA, C++, Python, C
 
-**Areas:** High-Performance Computing, Optimizations, Software Engineering, Numerical Methods/Computational Physics.
+**Areas:** High-Performance Computing, Optimizations, Software Engineering, Numerical Methods/Computational Physics
 
-**Tools:** Git, Bash, Linux, OpenMP, NumPy, Rerun, Plotly, MatPlotLib.
+**Tools:** Git, Bash, Linux, OpenMP, NumPy, Rerun, Plotly, MatPlotLib
 
 ## Experience
 
 **Software Engineering Intern** — Shopify  
-Incoming for the Summer 2026 term.
+Summer 2026
 
 **Founder & HPC Engineer** — UW HPC  
-Developing software for high-performance computing.
+Developing software for high-performance computing
 
 **Co-Author** — UWaterloo ECE 105 Course Text  
-Curriculum development and LaTeX infrastructure for 400+ annual students.
+Curriculum development and LaTeX infrastructure for 400+ annual students
 
 **Founder** — KesTech Systems  
-$40K+ revenue, 60+ custom-built systems.
+$40K+ revenue, 60+ custom-built systems
 
 ## Contact
 
