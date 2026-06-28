@@ -22,28 +22,6 @@ N-Body physics engine simulationg gravity with symplectic Yoshida integration. V
 **[Variational Monte Carlo Engine](https://github.com/UWHPC/Variational-Monte-Carlo)**  
 A Variational Monte Carlo engine simulating the homogeneous electron gas, built as part of UW High Performance Computing. Uses a trial wavefunction and stochastic optimization to estimate ground-state energies.
 
-## Skills
-
-**Languages:** CUDA, C++, Python, C
-
-**Areas:** High-Performance Computing, Optimizations, Software Engineering, Numerical Methods/Computational Physics
-
-**Tools:** Git, Bash, Linux, OpenMP, NumPy, Rerun, Plotly, MatPlotLib
-
-## Experience
-
-**Software Engineering Intern** — Shopify  
-Summer 2026
-
-**Founder & HPC Engineer** — UW HPC  
-Developing software for high-performance computing
-
-**Co-Author** — UWaterloo ECE 105 Course Text  
-Curriculum development and LaTeX infrastructure for 400+ annual students
-
-**Founder** — KesTech Systems  
-$40K+ revenue, 60+ custom-built systems
-
 ## Contact
 
 karl.keshavarzi@uwaterloo.ca
