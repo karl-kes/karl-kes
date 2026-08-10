@@ -2,25 +2,29 @@
 
 **Computer Engineering, University of Waterloo**
 
-I write low-level systems and HPC software: CUDA kernels, parallel solvers, and code that lives close to the hardware. My research experience centers on distributed GPU algorithms for maximally independent sets. I've recently begun work on ML compilers with the UWHPC design team.
+I enjoy writing low-level systems and software, especially with C++. To foster a community that surrounds my passion, I founded the [UWHPC](https://www.uwhpc.com/) design team. My research experience focuses on distributed GPU algorithms for maximal independent sets. I'm particularly interested in HFT, GPU programming, and ML infrastructure. Open to discussing new opportunities and collaborations. Feel free to reach out.
 
 ## Projects
 
-### ∂T/∂t = α∇²T
-**[3D Heat Solver](https://github.com/karl-kes/3d-heat-solver)**  
-A C++ solver for the 3D heat equation using an explicit forward Euler finite-difference scheme, with dual-backend CPU (OpenMP/SIMD) and GPU (CUDA) execution from unified source. Achieves 60-68x GPU speedup at large grid sizes, validated against Neumann eigenfunction solutions.
-
-### **∇ × E = −∂B/∂t**
-**[Finite-Difference Maxwell Solver](https://github.com/karl-kes/FDTD-Wave-Solver)**  
-A 3D Finite-Difference Time-Domain (FDTD) Maxwell Solver with CPML boundary conditions. Capable of simulating and visualizing electromagnetic vector fields. Parallelized with OpenMP (CUDA in progress).
-
-### **F = Gm₁m₂/r²**
-**[N-Body Gravity Engine](https://github.com/karl-kes/N-Body-Gravity-Simulator)**  
-N-Body physics engine simulationg gravity with symplectic Yoshida integration. Validated solar system dynamics with NASA JPL Horizons data across 249 years.
+### **host ≡ device**
+**[xpu](https://github.com/UWHPC/xpu)**  
+A header-only C++23 library that lets the same allocation, layout, and math code compile for either CPU or CUDA. Forget about `#ifdef` wrapping.
 
 ### **u(r) = ar / (1 + br)**
 **[Variational Monte Carlo Engine](https://github.com/UWHPC/Variational-Monte-Carlo)**  
-A Variational Monte Carlo engine simulating the homogeneous electron gas, built as part of UW High Performance Computing. Uses a trial wavefunction and stochastic optimization to estimate ground-state energies.
+Stochastically computes ground-state energies no analytic solution can reach. Halving the error costs four times the samples, so accuracy is a compute budget.
+
+### ∂T/∂t = α∇²T
+**[3D Heat Solver](https://github.com/karl-kes/3d-heat-solver)**  
+Hits 91% of theoretical memory bandwidth on GPU, 68× faster than the multithreaded, vectorized CPU at 134M cells. Validated with analytical solutions.
+
+### **∇ × E = −∂B/∂t**
+**[Finite-Difference Maxwell Solver](https://github.com/karl-kes/FDTD-Wave-Solver)**  
+11× faster with CUDA than the OpenMP path on 28M-cell grids. Cache-aligned SoA and SIMD cut CPU kernel time 44% over the AoS baseline.
+
+### **F = Gm₁m₂/r²**
+**[N-Body Gravity Engine](https://github.com/karl-kes/N-Body-Gravity-Simulator)**  
+Barnes-Hut gives 53× over a direct OpenMP kernel at 131K bodies. A 4th-order Yoshida integrator holds energy error to 2e-12 across 249 simulated years.
 
 ## Contact
 
